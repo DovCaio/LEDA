@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-10-24T22:40:49.055-0300</date>
+  <logger>CAIO JHONATAN ALVES PEREIRA</logger>
+  <level>FINE</level>
+  <message>File 121110513-CAIO JHONATAN ALVES PEREIRA.zip was received. It was sent by CAIO JHONATAN ALVES PEREIRA from IP 172.25.224.1 at 24-10-2022 22*40*49</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-10-25T22:12:51.545-0300</date>
+  <logger>CAIO JHONATAN ALVES PEREIRA</logger>
+  <level>FINE</level>
+  <message>File 121110513-CAIO JHONATAN ALVES PEREIRA.zip was received. It was sent by CAIO JHONATAN ALVES PEREIRA from IP 172.25.160.1 at 25-10-2022 22*12*51</message>
+</record>
