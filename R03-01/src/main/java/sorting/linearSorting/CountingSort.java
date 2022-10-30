@@ -21,36 +21,36 @@ public class CountingSort extends AbstractSorting<Integer> {
 		if(array.length == 0) return;
 		
 		int max = array[leftIndex];
-		int min = array[leftIndex];
 		
 		for(int i = leftIndex + 1; i <= rightIndex; i++) {
 			if(max < array[i]) max = array[i];
-			if(min > array[i]) min = array[i];
 		}
 		
-		int k = max -  min + 1;
+		int k = max + 1;
 		
 		int[] arrayAux = new int[k];
 		
 		for(int i = leftIndex; i <= rightIndex; i++) {
-			arrayAux[array[i] - min] += 1;
+			arrayAux[array[i]] += 1;
 		}
+		
 		
 		for (int i = 1; i < arrayAux.length; i++) {
 			arrayAux[i] += arrayAux[i - 1];
 		}
 
-		int[] aux2 = new int[array.length];
+		int[] aux2 = new int[array.length + 1];
 		
 		for (int i = rightIndex; i >= leftIndex; i--) {
-			aux2[arrayAux[array[i] - min] - 1] = array[i];
-			arrayAux[array[i] - min] -= 1;
+			aux2[arrayAux[array[i] ] ] = array[i];
+			arrayAux[array[i]] -= 1;
 		}
+		
 		
 		//for(Integer numero : aux2) System.out.println(numero);
 		
-		int j = 0;
-		for(int i = 0	; i <= array.length; i++) {
+		int j = 1;
+		for(int i = 0; i <= array.length; i++) {
 			if(i >= leftIndex && i <= rightIndex) {
 				array[i] = aux2[j];
 				j++;
