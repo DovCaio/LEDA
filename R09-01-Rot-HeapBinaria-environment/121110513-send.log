@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-10T21:07:54.852-0300</date>
+  <logger>CAIO JHONATAN ALVES PEREIRA</logger>
+  <level>FINE</level>
+  <message>File 121110513-CAIO JHONATAN ALVES PEREIRA.zip was received. It was sent by CAIO JHONATAN ALVES PEREIRA from IP 192.168.0.103 at 10-12-2022 21*07*54</message>
+</record>
